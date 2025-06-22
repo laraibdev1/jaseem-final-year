@@ -87,11 +87,10 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-semibold text-gray-900">Address</h3>
                   <p className="text-gray-600">
-                    123 Commerce Street
+                    Thana road
                     <br />
-                    New York, NY 10001
-                    <br />
-                    United States
+                     Madhupur  , deoghar.               <br />
+                      Jharkhand, India.
                   </p>
                 </div>
               </div>

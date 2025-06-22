@@ -42,7 +42,7 @@ export function Header() {
   const navigation = [
     { name: "Home", href: "/" },
     { name: "Shop", href: "/products" },
-    { name: "Fresh Deals", href: "/deals" },
+    // { name: "Fresh Deals", href: "/deals" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
   ]
@@ -56,16 +56,21 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3 group">
-            <div className="relative">
-              <div className="w-12 h-12 bg-gradient-to-br from-green-600 to-emerald-600 rounded-xl flex items-center justify-center transform group-hover:scale-105 transition-transform duration-200 shadow-md">
-                <span className="text-white font-bold text-xl">JFF</span>
-              </div>
-            </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-              Jaseem Fresh Foods
-            </span>
-          </Link>
+         <Link href="/" className="flex items-center space-x-3 group">
+  <div className="relative">
+    <div className="w-12 h-12 bg-gradient-to-br from-green-600 to-emerald-600 rounded-xl flex items-center justify-center transform group-hover:scale-105 transition-transform duration-200 shadow-md overflow-hidden">
+      <img
+        src="/admin.png"  
+        alt="Logo"
+        className="w-full h-full object-cover"
+      />
+    </div>
+  </div>
+  <span className="text-2xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
+    Jaseem Fresh Foods
+  </span>
+</Link>
+
 
           {/* Delivery Location */}
           <div className="hidden lg:flex items-center space-x-2 text-sm">
