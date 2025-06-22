@@ -1,0 +1,161 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Organic Avocados",
+      "price": 4.99,
+      "originalPrice": 6.99,
+      "category": "Fresh Produce",
+      "image": "/avocado.png",
+      "images": [
+        "/placeholder.svg?height=400&width=400",
+        "/placeholder.svg?height=400&width=400",
+        "/placeholder.svg?height=400&width=400"
+      ],
+      "description": "Premium organic Hass avocados, perfectly ripe and creamy. Sourced from sustainable farms for the ultimate taste experience.",
+      "features": [
+        "Certified Organic",
+        "Hand-picked for ripeness",
+        "Rich in healthy fats",
+        "Perfect for toast & salads",
+        "Sustainably sourced"
+      ],
+      "inStock": true,
+      "rating": 4.8,
+      "reviews": 324,
+      "featured": true,
+      "unit": "per bag (4 count)",
+      "freshness": "Farm fresh - picked yesterday"
+    },
+    {
+      "id": 2,
+      "name": "Wild Alaskan Salmon",
+      "price": 24.99,
+      "originalPrice": 29.99,
+      "category": "Fresh Seafood",
+      "image": "/salmon.png",
+      "images": ["/placeholder.svg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
+      "description": "Premium wild-caught Alaskan salmon fillets, rich in omega-3s and sustainably harvested from pristine waters.",
+      "features": ["Wild-caught", "Omega-3 rich", "Sustainably harvested", "Flash-frozen fresh", "Restaurant quality"],
+      "inStock": true,
+      "rating": 4.9,
+      "reviews": 189,
+      "featured": true,
+      "unit": "per lb",
+      "freshness": "Caught this week"
+    },
+    {
+      "id": 3,
+      "name": "Artisan Sourdough Bread",
+      "price": 6.99,
+      "originalPrice": 8.99,
+      "category": "Bakery",
+      "image": "/bread.png",
+      "images": ["/placeholder.svg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
+      "description": "Handcrafted sourdough bread with a perfect crust and tangy flavor. Made with traditional fermentation methods.",
+      "features": [
+        "24-hour fermentation",
+        "No artificial preservatives",
+        "Crispy crust",
+        "Tangy sourdough flavor",
+        "Artisan crafted"
+      ],
+      "inStock": true,
+      "rating": 4.7,
+      "reviews": 267,
+      "featured": false,
+      "unit": "per loaf",
+      "freshness": "Baked this morning"
+    },
+    
+    {
+      "id": 4,
+      "name": "Organic Baby Spinach",
+      "price": 3.99,
+      "originalPrice": 4.99,
+      "category": "Fresh Produce",
+      "image": "/spinache.png",
+      "images": ["/placeholder.svg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
+      "description": "Tender organic baby spinach leaves, perfect for salads and smoothies. Packed with nutrients and flavor.",
+      "features": ["Certified organic", "Triple-washed", "Nutrient-dense", "Perfect for salads", "Ready to eat"],
+      "inStock": true,
+      "rating": 4.6,
+      "reviews": 203,
+      "featured": false,
+      "unit": "5 oz container",
+      "freshness": "Harvested yesterday"
+    },
+    {
+      "id": 5,
+      "name": "Aged Parmesan Cheese",
+      "price": 18.99,
+      "originalPrice": 22.99,
+      "category": "Gourmet Cheese",
+      "image": "/cheese.png",
+      "images": ["/placeholder.svg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
+      "description": "Authentic Parmigiano-Reggiano aged 24 months for complex, nutty flavors. Perfect for grating or enjoying on its own.",
+      "features": [
+        "24-month aged",
+        "Authentic Italian",
+        "Complex nutty flavor",
+        "Perfect for grating",
+        "Artisan quality"
+      ],
+      "inStock": true,
+      "rating": 4.8,
+      "reviews": 91,
+      "featured": false,
+      "unit": "8 oz wedge",
+      "freshness": "Aged to perfection"
+    },
+    {
+      "id": 6,
+      "name": "Cold-Pressed Olive Oil",
+      "price": 16.99,
+      "originalPrice": 19.99,
+      "category": "Pantry Essentials",
+      "image": "/live.png",
+      "images": ["/placeholder.svg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
+      "description": "Premium extra virgin olive oil, cold-pressed from hand-picked olives. Rich flavor perfect for cooking and drizzling.",
+      "features": ["Extra virgin", "Cold-pressed", "Hand-picked olives", "Rich flavor profile", "Glass bottle"],
+      "inStock": true,
+      "rating": 4.7,
+      "reviews": 178,
+      "featured": false,
+      "unit": "500ml bottle",
+      "freshness": "First cold press"
+    },
+    {
+      "id": 7,
+      "name": "Organic Blueberries",
+      "price": 5.99,
+      "originalPrice": 7.99,
+      "category": "Fresh Produce",
+      "image": "/berry.png",
+      "images": ["/placeholder.svg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
+      "description": "Sweet, juicy organic blueberries bursting with antioxidants. Perfect for snacking, baking, or smoothies.",
+      "features": [
+        "Certified organic",
+        "High in antioxidants",
+        "Sweet and juicy",
+        "Perfect for baking",
+        "Locally grown"
+      ],
+      "inStock": true,
+      "rating": 4.8,
+      "reviews": 312,
+      "featured": true,
+      "unit": "1 pint container",
+      "freshness": "Picked this morning"
+    }
+  ],
+  "categories": [
+    "All",
+    "Fresh Produce",
+    "Fresh Seafood",
+    "Premium Meats",
+    "Bakery",
+    "Gourmet Cheese",
+    "Pantry Essentials"
+  ]
+}
